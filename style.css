@@ -52,3 +52,9 @@ body {
     .innerBlocks{
     float:left;
 }
+
+.innerNews{
+    margin: 10px; 
+    background-color: white;
+    border: 4px double black;
+}
