@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <link rel="stylesheet" href="style.css">
-    <title>React App</title>
-  </head>
-  <body>
-    <nav class="nav-main">
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="news.html">Новости</a></li>
-        <li><a href="profile.html">Профиль</a></li>
-        <!-- <li><a href="#">Вход</a></li> -->
-      </ul>
-    </nav>
-    
-    <div id="root"></div>
-    <!--
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="style.css">
+  <title>React App</title>
+</head>
+<script src="./src/index.js" type="module"></script>
+<script src="./src/login.js" type="module"></script>
+<body>
+  <nav class="nav-main">
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="news.html">Новости</a></li>
+      <li><a href="" id="profile">Профиль</a></li>
+      <!-- <li><a href="#">Вход</a></li> -->
+    </ul>
+  </nav>
+
+  <script src="./login_export.js" type="module"></script>
+
+  <div id="root">ГЛАВНАЯ</div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -28,5 +33,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>

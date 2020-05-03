@@ -9,22 +9,22 @@
   </head>
   <script src="./src/index.js" type="module"></script>
   <script src="./src/login.js" type="module"></script>
-  <script src="./src/profile.js" type="module"></script>
   <body>
     <nav class="nav-main">
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="news.html">Новости</a></li>
-        <li><a href="" id="profile">Профиль</a></li>
-        <!-- <li><a href="#">Вход</a></li> -->
-      </ul>
-    </nav>
-    <div>ВЫ В ПРОФИЛЕ</div>
-    <form onsubmit="return false;">
-      <button id='logout_button'>Выйти</button>
-  </form>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="" id="profile">Профиль</a></li>
+          <!-- <li><a href="#">Вход</a></li> -->
+        </ul>
+      </nav>
+    
     <div id="root">
-      
+        <form onsubmit="return false;">
+            <input id="nick" type="text" name="login">
+            <input id="password" type="password" name="password">
+            <button id='login_button' >Отправить</button>
+        </form>
     </div>
     <!--
       This HTML file is a template.
