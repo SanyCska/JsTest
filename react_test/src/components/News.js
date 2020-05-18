@@ -17,7 +17,6 @@ class News extends Component {
         let url = 'https://newsapi.org/v2/everything?q=javascript&from=2020-17-05&sortBy=publishedAt&apiKey=' + api_key;
         axios.get(url)
         .then(response => {
-            console.log(response.data.articles)
             this.setState({news: response.data.articles})
         })
         .catch(error => {
